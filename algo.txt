@@ -1,0 +1,67 @@
+
+create game board (handles gameboard, game inputs)
+    - make board 
+    - handle input (player and location)
+    - check available positions
+        if position is available place marker in selected location
+    -   if selection not available, no reaction
+    - maybe not necessary, just need a good if/else statement so that location is correct
+    print new board (does not work, bc switches the order of array, just creates new array...)
+    
+    *** make the input handle correctly *** 
+        currently just turns into value instantly  
+
+
+create player system (handles player inputs, interracts with gameboard,switches turn)
+    - player chooses input (that is the location)
+    - input and player name go to gameboard
+    - once done switch player
+
+create game controller (handles game round, accounts for score and win criteria)
+    - initiate game board and player system
+    - account for win case
+    - if win case met - break print 'player x wins'
+    - else return 'tie play again'
+     
+
+
+
+
+
+
+
+
+
+
+
+
+plan:
+
+make gameboard
+- function that creates the gameboard (3*3) for tictactoe
+- function that gives the available sections
+    - filters for which spots are available (which are equal to zero)
+    - if the spot = 0 then it is valid
+    - 
+- function that returns if selection not available
+- function that takes player and selection and enters them on to table
+- return table
+- print table (for console use)
+
+make cell sections
+-1 = player one tic, 2 = player two tic, 0 = no tic in section
+
+
+make game controller
+
+make player selection and switch
+- function that accepts player and selection
+- lists player and 'their turn'
+- function that takes player and selection, switches after selection
+- function that puts this player and selection into gameboard
+
+
+make round print and next round
+- result of round is printed and stored
+- round is called again
+- function that accounts for all win cases
