@@ -1,3 +1,139 @@
+*** create gameboard
+
+    - initialize gameboard
+    - reset board
+    - checks win conditions
+    - handle player choice
+
+
+*** create game controller 
+
+    - start round
+    - if turn = 9 (draw)
+    - take user input
+    - add to board
+    - function that checks for win condition
+        - end game or continue
+    - continue, swtich symbol
+    - check win condition, repeat steps above
+    
+
+
+
+    win condition function 
+    *for loop for columns,rows,diagonal
+    *use the 'i' to count through each number 0,1,2
+    *if no winner return null
+    if winner return winner text
+    *check if values are the same (so board[0][0]==board etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- win conditions
+- loop 
+- input first
+    - print (x goes first pick your square)
+    - user input === board,x,x
+
+- start loop with 9 turns
+- prompt x to start
+- input goes to gameboard
+- check the win conditions 
+- if not win, continue
+- switch to o   
+- repeat
+
+enter all win conditions  
+how does the system test for them
+
+if board[][] || board[][] || etc... = '0' : break
+
+else continue
+
+
+test it 
+
+programming dom
+    - set initial user click to x
+    - swtich after inital user click to o
+    - win conditions met 
+        - modal pop up "x" wins! 
+        - button to reset
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //testing
 create game board (handles gameboard, game inputs)
     - make board 
