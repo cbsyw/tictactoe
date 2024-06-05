@@ -51,7 +51,7 @@ function gameBoard(){
                 return board[i][0];
             }
 
-          for (let j = 0; j < columns; i++){
+          for (let j = 0; j < columns; j++){
             if (board[0][j] && board[0][j] === board[1][j] && board[1][j] === board[2][j]){
                 return board[0][j]
             }
