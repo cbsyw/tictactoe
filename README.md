@@ -1,2 +1,2 @@
 # tictactoe
-game
+game written in vanilla js
